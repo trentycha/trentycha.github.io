@@ -262,7 +262,7 @@
         <div class="container" style="max-width: 1200px;">
             <div class="row align-items-center mb-4 py-5">
             <div class="col-md-6">
-                <img src="./images/landing-page.png" alt="Site web Squash Talence" class="img-fluid rounded-4 shadow" style="height: 500px; object-fit: cover;">
+                <img src="./images/landing-page.jpg" alt="Site web Squash Talence" class="img-fluid rounded-4 shadow" style="height: 500px; object-fit: cover;">
             </div>
             <div class="col-md-6 ps-5">
                 <h2 class="mb-4 text-start">Site web - Squash Talence</h2>
@@ -301,63 +301,112 @@
       
         <div class="row mb-5">
             <div class="col-12">
-                <div class="card p-5 shadow">
-                    <div class="row">
-                        <h4 class="mb-4" style="color: #1d1d1d;">Fonctionnalités principales</h4>
-                        <div class="col-md-6">
+                <div class="card" style="border-radius: 12px; box-shadow: none; padding: 0.5rem 3rem 2rem 1.5rem;">
+                    <h4 class="mb-4" style="color: #1d1d1d;">Fonctionnalités principales</h4>
+                    
+                    <div class="row gx-5">
+                        <div class="col-lg-6 mb-4 mb-lg-0 pe-4">
                             <ul class="list-unstyled">
-                                <li><i class="bi bi-lightning-fill text-info me-3"></i>Système d'inscription et d'authentification sécurisé</li>
+                                <li class="mb-3">
+                                    <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #f8f9fa; border-radius: 25px;">
+                                        <div style="width: 36px; height: 36px; background: #0dcaf0; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                            <i class="bi bi-lightning-fill" style="color: white; font-size: 16px;"></i>
+                                        </div>
+                                        <span style="color: #1d1d1d; font-weight: 500;">Calendrier interactif de réservation avec navigation par jour</span>
+                                    </div>
+                                </li>
+                                <li class="mb-3">
+                                    <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #f8f9fa; border-radius: 25px;">
+                                        <div style="width: 36px; height: 36px; background: #0dcaf0; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                            <i class="bi bi-lightning-fill" style="color: white; font-size: 16px;"></i>
+                                        </div>
+                                        <span style="color: #1d1d1d; font-weight: 500;">Visualisation des créneaux disponibles par terrain</span>
+                                    </div>
+                                </li>
+                                <li class="mb-3">
+                                    <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #f8f9fa; border-radius: 25px;">
+                                        <div style="width: 36px; height: 36px; background: #0dcaf0; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                            <i class="bi bi-lightning-fill" style="color: white; font-size: 16px;"></i>
+                                        </div>
+                                        <span style="color: #1d1d1d; font-weight: 500;">Authentification obligatoire pour accéder aux réservations</span>
+                                    </div>
+                                </li>
+                                <li class="mb-3">
+                                    <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #f8f9fa; border-radius: 25px;">
+                                        <div style="width: 36px; height: 36px; background: #0dcaf0; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                            <i class="bi bi-lightning-fill" style="color: white; font-size: 16px;"></i>
+                                        </div>
+                                        <span style="color: #1d1d1d; font-weight: 500;">Système d'inscription et de connexion sécurisé </span>
+                                    </div>
+                                </li>
+                                <li class="mb-3">
+                                    <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #f8f9fa; border-radius: 25px;">
+                                        <div style="width: 36px; height: 36px; background: #0dcaf0; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                            <i class="bi bi-lightning-fill" style="color: white; font-size: 16px;"></i>
+                                        </div>
+                                        <span style="color: #1d1d1d; font-weight: 500;">Tableau de bord des réservations sur le profil utilisateur</span>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
-                        <div class="col-md-6">
-                            <ul class="list-unstyled">
-                                <li><i class="bi bi-lightning-fill text-info me-3"></i>Tableau de bord personnel avec l'historique des réservations</li>
-                            </ul>
+
+                <div class="col-lg-6">
+                    <div id="carouselFonctionnalites" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner" style="border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);">
+                            <div class="carousel-item active">
+                                <img src="./images/landing-page.jpg" class="d-block w-100" alt="Fonctionnalité 1" style="object-fit: cover; height: 350px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/login.jpg" class="d-block w-100" alt="Fonctionnalité 2" style="object-fit: cover; height: 350px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/resa.jpg" class="d-block w-100" alt="Fonctionnalité 3" style="object-fit: cover; height: 350px;">
+                            </div>
                         </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFonctionnalites" data-bs-slide="prev" style="background: rgba(0, 0, 0, 0.5); border-radius: 50%; width: 40px; height: 40px; top: 50%; transform: translateY(-50%); left: 10px;">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselFonctionnalites" data-bs-slide="next" style="background: rgba(0, 0, 0, 0.5); border-radius: 50%; width: 40px; height: 40px; top: 50%; transform: translateY(-50%); right: 10px;">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
         <div class="row mb-5">
-            <div class="col-md-6">
-                <div class="card p-5 shadow">
+            <div class="col-md-8">
+                <div class="card p-5 shadow" style="padding-top: 2rem !important; padding-bottom: 2rem !important;">
                     <h4 class="mb-4" style="color: #1d1d1d;">Compétences mobilisées</h4>
                     <ul class="list-unstyled">
                         <li><i class="bi bi-code-slash text-info me-3"></i>Maîtrise du framework Symfony et de l'architecture MVC</li>
+                        <li><i class="bi bi-code-slash text-info me-3"></i>Gestion complète d'une base de données relationnelle avec Doctrine ORM</li>
+                        <li><i class="bi bi-code-slash text-info me-3"></i>Conception et modélisation d'un schéma de base de données complexe</li>
+                        <li><i class="bi bi-code-slash text-info me-3"></i>Implémentation d'un système d'authentification et d'autorisation</li>
+                        <li><i class="bi bi-code-slash text-info me-3"></i>Développement d'interfaces utilisateur dynamiques et intuitives avec Twig</li>
+                        <li><i class="bi bi-code-slash text-info me-3"></i>Conception et réalisation d'un projet web full-stack complet en autonomie</li>
                     </ul>
                 </div>
             </div>
             
-            <div class="col-md-6">
-                <div class="card p-5 shadow">
-                    <h4 class="mb-4" style="color: #1d1d1d;">Améliorations à venir (futures versions)</h4>
+            <div class="col-md-4">
+                <div class="card p-5 shadow h-100" style="padding-top: 2rem !important; padding-bottom: 2rem !important;">
+                    <h4 class="mb-4" style="color: #1d1d1d;">Améliorations à venir</h4>
                     <ul class="list-unstyled">
-                        <li><i class="bi bi-rocket-fill text-info me-3"></i>Développement d'une API REST</li>
                         <li><i class="bi bi-rocket-fill text-info me-3"></i>Système de notifications par email pour rappeler les réservations</li>
-                        <li><i class="bi bi-rocket-fill text-info me-3"></i>Ajout de niveaux de différents niveaux d'utilisateurs (Admin)</li>
+                        <li><i class="bi bi-rocket-fill text-info me-3"></i>Système de gestion des utilisateurs multi-niveaux (admin, super-admin)</li>
+                        <li><i class="bi bi-rocket-fill text-info me-3"></i>...</li>
                     </ul>
                 </div>
             </div>
         </div>
-            
-
-            <div class="row mt-5">
-                <div class="col-12">
-                    <h3 class="text-left mb-4">Aperçu du Projet</h3>
-                </div>
-                <div class="col-md-4">
-                    <img src="images/grad_accueil.png" class="img-fluid rounded-4 shadow" alt="Page d'accueil GRAD">
-                </div>
-                <div class="col-md-4">
-                    <img src="images/grad_prestation.png" class="img-fluid rounded-4 shadow" alt="Page prestations GRAD">
-                </div>
-                <div class="col-md-4">
-                    <img src="images/grad_realisation.png" class="img-fluid rounded-4 shadow" alt="Page réalisations GRAD">
-                </div>
-            </div>
-        </div>
-    </main>
+    </div>
+</main>
     
     <footer class="mt-auto" id="footer">
         <div class="container">
