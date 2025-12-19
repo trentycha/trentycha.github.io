@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -15,9 +16,9 @@ const Home = () => {
                             <p className="text-lg mb-8 text-gray-300 whitespace-pre-line">
                             En tant que développeuse web fullstack j'aime me lancer de nouveaux défis. {'\n'} C'est pourquoi je cherche une nouvelle opportunité en alternance pour poursuivre en Master {'\n'} afin de découvrir de nouveaux projets challengeants.
                             </p>
-                            <a href="/projets" className="bg-orange-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors inline-block shadow-lg">
-                            Mes projets
-                            </a>
+                            <Link to="/projets" className="bg-orange-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors inline-block shadow-lg">
+                                Mes projets
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -7,8 +7,8 @@ import Parcours from './pages/Parcours';
 function App() {
   return (
     <div className="App">
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projets" element={<Projets />} />
