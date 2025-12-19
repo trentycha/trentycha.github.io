@@ -1,0 +1,164 @@
+{
+  "projets": [
+    {
+      "id": 1,
+      "titre": "My Geek Shop",
+      "description": "Site e-commerce de produits dérivés de la culture geek, avec gestion des utilisateurs, catalogue de produits, panier d'achat et système de paiement.",
+      "technologies": [
+        "React",
+        "Tailwind CSS"
+      ],
+      "fonctionnalites": [
+        "Catalogue de produits pop (figurines, accessoires gaming, goodies)",
+        "Panier d'achat dynamique avec gestion des quantités",
+        "Système d'inscription et de connexion des utilisateurs",
+        "Page de détail produit avec images et descriptions"
+      ],
+      "images": "./images/My-geek-shop/home-products.png",
+      "competences": [
+        "Développement frontend avec React",
+        "Gestion d'état avec hooks (useState, useEffect, useContext)",
+        "Routing avec React Router",
+        "Stylisation avec Tailwind CSS",
+        "Gestion de formulaires et validation",
+        "Manipulation d'API et données JSON"
+      ],
+      "ameliorations": [
+        "Intégration d'une API backend (Node.js/Express)",
+        "Espace administrateur pour gérer les produits",
+        "Système de wishlist et de favoris"
+      ]
+    },
+    {
+      "id": 2,
+      "titre": "Squash Talence",
+      "description": "Modernisation et optimisation d'un site web pour un club de Squash. Calendrier de réservation, comptes utilisateurs, gestion de ses réservations, ...",
+      "technologies": [
+        "PHP",
+        "Symfony",
+        "MySQL"
+      ],
+      "fonctionnalites": [
+        "Système d'inscription et d'authentification des membres",
+        "Réservation de créneaux de courts en ligne",
+        "Gestion des adhésions et des paiements",
+        "Interface d'administration pour la gestion du club",
+        "Calendrier interactif des réservations",
+        "Gestion des différents types d'abonnements"
+      ],
+      "images": "./images/Squash-talence/landing-page.jpg",
+      "competences": [
+        "Développement backend avec Symfony",
+        "Gestion de base de données relationnelle",
+        "Authentification et gestion des utilisateurs",
+        "Architecture MVC",
+        "Création d'interfaces utilisateur avec Twig",
+        "Intégration de Bootstrap pour le design responsive"
+      ],
+      "ameliorations": [
+        "Système de paiement en ligne sécurisé",
+        "Notifications par email pour les réservations",
+        "Application mobile native"
+      ]
+    },
+    {
+      "id": 3,
+      "titre": "Tic Tac Toe",
+      "description": "Développement d'un jeu de Tic Tac Toe et de son interface avec des classes Java.",
+      "technologies": [
+        "Java",
+        "Gui"
+      ],
+      "fonctionnalites": [
+        "Jeu pour deux joueurs en local",
+        "Détection automatique du vainqueur",
+        "Affichage du score",
+        "Réinitialisation de la partie",
+        "Interface graphique intuitive",
+        "Animations visuelles lors des coups joués"
+      ],
+      "images": "./images/Tic-tac-toe/game.png",
+      "competences": [
+        "Logique de programmation JavaScript",
+        "Manipulation du DOM",
+        "Gestion des événements utilisateur",
+        "Algorithmes de détection de victoire",
+        "Design d'interface de jeu",
+        "Programmation orientée objet en JavaScript"
+      ],
+      "ameliorations": [
+        "Mode de jeu contre l'ordinateur (IA)",
+        "Différents niveaux de difficulté",
+        "Sauvegarde des statistiques de jeu",
+        "Mode multijoueur en ligne"
+      ]
+    },
+    {
+      "id": 4,
+      "titre": "Wanted - Click'n Point",
+      "description": "Développement d'un jeu point'n'click, similaire à 'Où est Charlie', ayant pour but de trouver la paire de chaussette manquante.",
+      "technologies": [
+        "PHP",
+        "Symfony",
+        "MySQL"
+      ],
+      "fonctionnalites": [
+        "Recherche de criminels dans une base de données",
+        "Affichage des informations détaillées (photo, nom, crimes)",
+        "Système de primes et récompenses",
+        "Filtrage par catégorie de crime",
+        "Interface type 'Wanted poster' western",
+        "Système de favoris"
+      ],
+      "images": "./images/Wanted/game.jpg",
+      "competences": [
+        "Consommation d'API REST",
+        "Manipulation de données JSON",
+        "Création d'interfaces thématiques",
+        "Gestion d'état en JavaScript vanilla",
+        "Requêtes asynchrones (fetch/promises)",
+        "Design créatif et original"
+      ],
+      "ameliorations": [
+        "Backend pour gérer une vraie base de données",
+        "Système de recherche avancée",
+        "Ajout de nouveaux criminels par les utilisateurs",
+        "Historique des recherches"
+      ]
+    },
+    {
+      "id": 5,
+      "titre": "Wineshop",
+      "description": "Conception et réalisation d'un site vitrine responsive pour un château de vin avec présentation des produits.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "fonctionnalites": [
+        "Catalogue de vins avec filtres (région, cépage, prix)",
+        "Panier d'achat dynamique",
+        "Système de recherche de produits",
+        "Fiches produits détaillées",
+        "Design responsive adapté mobile et tablette",
+        "Interface utilisateur élégante et moderne"
+      ],
+      "images": "./images/Chateau-Letour/couverture.jpg",
+      "competences": [
+        "Développement front-end complet",
+        "Gestion de panier d'achat en JavaScript",
+        "LocalStorage pour la persistance des données",
+        "Filtrage et tri de produits",
+        "Design e-commerce professionnel",
+        "Expérience utilisateur optimisée"
+      ],
+      "ameliorations": [
+        "Intégration d'un système de paiement",
+        "Backend pour gestion des commandes",
+        "Espace client avec historique d'achats",
+        "Système de recommandations de vins",
+        "Gestion des stocks en temps réel"
+      ]
+    }
+  ]
+}
