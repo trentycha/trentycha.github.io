@@ -3,162 +3,273 @@
     {
       "id": 1,
       "titre": "My Geek Shop",
-      "description": "Site e-commerce de produits dérivés de la culture geek, avec gestion des utilisateurs, catalogue de produits, panier d'achat et système de paiement.",
+      "description": "Site e-commerce développé en full-stack, de produits de la culture geek/pop réalisé avec React et Node from scratch. Sélection de nombreux produits avec toutes leurs informations et possibilité de passer commande avec un panier en s'inscrivant et se connectant.",
+      "images": "/images/My-geek-shop/home-products.png",
       "technologies": [
+        "React",
+        "Tailwind CSS",
+        "NodeJS",
+        "API REST",
+        "Express",
+        "Prisma",
+        "MySQL"
+      ],
+      "front": [
         "React",
         "Tailwind CSS"
       ],
-      "fonctionnalites": [
-        "Catalogue de produits pop (figurines, accessoires gaming, goodies)",
-        "Panier d'achat dynamique avec gestion des quantités",
-        "Système d'inscription et de connexion des utilisateurs",
-        "Page de détail produit avec images et descriptions"
+      "back": [
+        "NodeJS",
+        "API REST",
+        "Express"
       ],
-      "images": "./images/My-geek-shop/home-products.png",
-      "competences": [
-        "Développement frontend avec React",
-        "Gestion d'état avec hooks (useState, useEffect, useContext)",
-        "Routing avec React Router",
-        "Stylisation avec Tailwind CSS",
-        "Gestion de formulaires et validation",
-        "Manipulation d'API et données JSON"
-      ],
-      "ameliorations": [
-        "Intégration d'une API backend (Node.js/Express)",
-        "Espace administrateur pour gérer les produits",
-        "Système de wishlist et de favoris"
-      ]
-    },
-    {
-      "id": 2,
-      "titre": "Squash Talence",
-      "description": "Modernisation et optimisation d'un site web pour un club de Squash. Calendrier de réservation, comptes utilisateurs, gestion de ses réservations, ...",
-      "technologies": [
-        "PHP",
-        "Symfony",
-        "MySQL"
+      "ORM": "Prisma",
+      "DB": "MySQL",
+      "carousel" : [
+        "/images/My-geek-shop/home-products.png",
+        "/images/My-geek-shop/home-products.png"
       ],
       "fonctionnalites": [
-        "Système d'inscription et d'authentification des membres",
-        "Réservation de créneaux de courts en ligne",
-        "Gestion des adhésions et des paiements",
-        "Interface d'administration pour la gestion du club",
-        "Calendrier interactif des réservations",
-        "Gestion des différents types d'abonnements"
-      ],
-      "images": "./images/Squash-talence/landing-page.jpg",
-      "competences": [
-        "Développement backend avec Symfony",
-        "Gestion de base de données relationnelle",
-        "Authentification et gestion des utilisateurs",
-        "Architecture MVC",
-        "Création d'interfaces utilisateur avec Twig",
-        "Intégration de Bootstrap pour le design responsive"
-      ],
-      "ameliorations": [
-        "Système de paiement en ligne sécurisé",
-        "Notifications par email pour les réservations",
-        "Application mobile native"
-      ]
-    },
-    {
-      "id": 3,
-      "titre": "Tic Tac Toe",
-      "description": "Développement d'un jeu de Tic Tac Toe et de son interface avec des classes Java.",
-      "technologies": [
-        "Java",
-        "Gui"
-      ],
-      "fonctionnalites": [
-        "Jeu pour deux joueurs en local",
-        "Détection automatique du vainqueur",
-        "Affichage du score",
-        "Réinitialisation de la partie",
-        "Interface graphique intuitive",
-        "Animations visuelles lors des coups joués"
-      ],
-      "images": "./images/Tic-tac-toe/game.png",
-      "competences": [
-        "Logique de programmation JavaScript",
-        "Manipulation du DOM",
-        "Gestion des événements utilisateur",
-        "Algorithmes de détection de victoire",
-        "Design d'interface de jeu",
-        "Programmation orientée objet en JavaScript"
-      ],
-      "ameliorations": [
-        "Mode de jeu contre l'ordinateur (IA)",
-        "Différents niveaux de difficulté",
-        "Sauvegarde des statistiques de jeu",
-        "Mode multijoueur en ligne"
-      ]
-    },
-    {
-      "id": 4,
-      "titre": "Wanted - Click'n Point",
-      "description": "Développement d'un jeu point'n'click, similaire à 'Où est Charlie', ayant pour but de trouver la paire de chaussette manquante.",
-      "technologies": [
-        "PHP",
-        "Symfony",
-        "MySQL"
-      ],
-      "fonctionnalites": [
-        "Recherche de criminels dans une base de données",
-        "Affichage des informations détaillées (photo, nom, crimes)",
-        "Système de primes et récompenses",
-        "Filtrage par catégorie de crime",
-        "Interface type 'Wanted poster' western",
-        "Système de favoris"
-      ],
-      "images": "./images/Wanted/game.jpg",
-      "competences": [
-        "Consommation d'API REST",
-        "Manipulation de données JSON",
-        "Création d'interfaces thématiques",
-        "Gestion d'état en JavaScript vanilla",
-        "Requêtes asynchrones (fetch/promises)",
-        "Design créatif et original"
-      ],
-      "ameliorations": [
-        "Backend pour gérer une vraie base de données",
-        "Système de recherche avancée",
-        "Ajout de nouveaux criminels par les utilisateurs",
-        "Historique des recherches"
-      ]
-    },
-    {
-      "id": 5,
-      "titre": "Wineshop",
-      "description": "Conception et réalisation d'un site vitrine responsive pour un château de vin avec présentation des produits.",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "fonctionnalites": [
-        "Catalogue de vins avec filtres (région, cépage, prix)",
+        "Système d'authentification complet avec inscription et connexion",
+        "Gestion du profil utilisateur avec historique des commandes",
+        "Catalogue de produits geek avec pages de détail",
         "Panier d'achat dynamique",
-        "Système de recherche de produits",
-        "Fiches produits détaillées",
-        "Design responsive adapté mobile et tablette",
-        "Interface utilisateur élégante et moderne"
+        "Persistance des données utilisateur via JWT"
       ],
-      "images": "./images/Chateau-Letour/couverture.jpg",
       "competences": [
-        "Développement front-end complet",
-        "Gestion de panier d'achat en JavaScript",
-        "LocalStorage pour la persistance des données",
-        "Filtrage et tri de produits",
-        "Design e-commerce professionnel",
-        "Expérience utilisateur optimisée"
+        "Développement full-stack avec React, React Router, Node.js et Express",
+        "Stylisation avec Tailwind CSS",
+        "Architecture MVC",
+        "Sécurisation des données : hashage bcrypt et authentification JWT",
+        "Gestion des autorisations, hashage de mot de passe et token JWT",
+        "Création d'API REST complète (CRUD produits, users, panier)",
+        "Mise en place d'une base de données et de son ORM avec MySQL et Prisma"
       ],
       "ameliorations": [
-        "Intégration d'un système de paiement",
-        "Backend pour gestion des commandes",
-        "Espace client avec historique d'achats",
-        "Système de recommandations de vins",
-        "Gestion des stocks en temps réel"
-      ]
-    }
-  ]
+        "Espace administrateur pour gérer les produits",
+        "Système de wishlist et de favoris",
+        "..."
+      ],
+      "github": "https://github.com/trentycha/my-geek-shop"
+    },
+    {
+    "id": 2,
+    "titre": "Squash Talence",
+    "description": "Refonte et modernisation d'un site de réservation de terrains dans un club de Squash. Le site présente le club et permet de réserver son créneau et son terrain de sport en se connectant à son compte.",
+    "images": "/images/Squash-talence/landing-page.jpg",
+    "technologies": [
+      "PHP",
+      "Symfony",
+      "Doctrine",
+      "MySQL"
+    ],
+    "front": [
+      "Twig",
+      "PHP"
+    ],
+    "back": [
+      "Symfony"
+    ],
+    "ORM": "Doctrine",
+    "DB": "MySQL",
+    "carousel": [
+      "/images/Squash-talence/landing-page.jpg",
+      "/images/Squash-talence/login.jpg",
+      "/images/Squash-talence/resa.jpg"
+    ],
+    "fonctionnalites": [
+      "Système d'inscription et d'authentification complet",
+      "Calendrier interactif affichant les créneaux disponibles en temps réel",
+      "Réservation de terrains avec sélection de date, heure et terrain",
+      "Gestion du profil utilisateur et historique des réservations"
+    ],
+    "competences": [
+      "Développement full-stack avec Symfony et architecture MVC",
+      "Authentification et gestion des utilisateurs",
+      "Gestion de base de données relationnelle avec MySQL",
+      "Création d'interfaces utilisateur avec Twig",
+      "Gestion de base de données relationnelle MySQL avec Doctrine ORM"
+    ],
+    "ameliorations": [
+      "Notifications par email pour les réservations",
+      "Application mobile native",
+      "..."
+    ],
+    "github": "https://github.com/trentycha/Refonte-site-web-Squash-Talence"
+  },
+  {
+    "id": 3,
+    "titre": "Tic Tac Toe",
+    "description": "Développement d'un jeu de Tic Tac Toe (Morpion) avec la possibilité de jouer localement en duo et de son interface avec des classes Java.",
+    "images": "/images/Tic-tac-toe/game.png",
+    "technologies": [
+      "Java"
+    ],
+    "front": [
+      "Java Swing"
+    ],
+    "back": [
+      "Java"
+    ],
+    "ORM": "",
+    "DB": "",
+    "carousel": [
+      "/images/Tic-tac-toe/game.png",
+      "/images/Tic-tac-toe/home.png",
+      "/images/Tic-tac-toe/victory.png"
+    ],
+    "fonctionnalites": [
+      "Jeu pour deux joueurs en local",
+      "Détection automatique du vainqueur",
+      "Réinitialisation de la partie",
+      "Interface graphique intuitive"
+    ],
+    "competences": [
+      "Logique de programmation et orientée objet en Java",
+      "Gestion des événements utilisateur",
+      "Algorithmes de détection de victoire",
+      "Design d'interface de jeu"
+    ],
+    "ameliorations": [
+      "Différents niveaux de difficulté",
+      "Sauvegarde des statistiques de jeu",
+      "..."
+    ],
+    "github": "https://github.com/trentycha/Tic-Tac-Toe"
+  },
+  {
+    "id": 4,
+    "titre": "Wanted - Jeu click'n Point",
+    "description": "Jeu point'n'click développé avec Symfony, inspiré de 'Où est Charlie'. Le but du jeu est de trouver la chaussette manquante parmi un tas de chaussette pour compléter sa paire.Le score est calculé en fonction du temps mis à cliquer sur la chaussette. Système d'authentification complet et blog intégré pour partager les exploits des joueurs.",
+    "images": "/images/Wanted/game.jpg",
+    "technologies": [
+      "PHP",
+      "Symfony",
+      "Doctrine",
+      "MySQL"
+    ],
+    "front": [
+      "PHP",
+      "Twig"
+    ],
+    "back": [
+      "Symfony"
+    ],
+    "ORM": "Doctrine",
+    "DB": "MySQL",
+    "carousel": [
+      "/images/Wanted/game.jpg",
+      "/images/Wanted/home.jpg",
+      "/images/Wanted/blog.jpg"
+    ],
+    "fonctionnalites": [
+      "Recherche d'objets dans des scènes illustrées",
+      "Détection de victoire ou de défaite",
+      "Affichage du score et du temps",
+      "Inscription et autentification des joueurs",
+      "Système de blog avec création et affichage d'article"
+    ],
+    "competences": [
+      "Développement backend avec Symfony et architecture MVC",
+      "Gestion de base de données avec Doctrine ORM",
+      "Authentification et gestion des utilisateurs (inscription/connexion)",
+      "Création d'interfaces utilisateur avec Twig",
+      "Logique de jeu et détection de clics sur zones précises",
+      "Système de blog (CRUD articles avec Symfony)"
+    ],
+    "ameliorations": [
+      "Système de niveaux progressifs",
+      "Historique des parties"
+    ],
+    "github": "https://github.com/trentycha/Projet_jeu_chaussettes"
+  },
+  {
+    "id": 5,
+    "titre": "Portfolio - Charlène",
+    "description": "Portfolio professionnel développé avec React et Tailwind CSS pour présenter mes projets web et mes compétences. Architecture moderne basée sur des composants réutilisables et données centralisées en JSON. Design soigné avec animations fluides pour une navigation intuitive et une expérience utilisateur optimale.",
+    "images": "/images/Portfolio/couverture.png",
+    "technologies": [
+      "React",
+      "Tailwind"
+    ],
+    "front": [
+      "React",
+      "Tailwind"
+    ],
+    "back": "",
+    "ORM": "",
+    "DB": "",
+    "carousel": [
+      "/images/Portfolio/couverture.png",
+      "/images/Portfolio/project.png",
+      "/images/Portfolio/cv.png",
+      "/images/Portfolio/contact.png"
+    ],
+    "fonctionnalites": [
+      "Présentation détaillée de mes projets web avec stack technique",
+      "Interface utilisateur moderne avec design professionnel",
+      "Navigation dynamique entre les différents projets",
+      "Téléchargement et visualisation du CV en PDF"
+    ],
+    "competences": [
+      "Développement avec React et composants réutilisables",
+      "Stylisation avancée avec Tailwind CSS",
+      "Architecture basée sur les données : gestion centralisée des projets via JSON",
+      "Routing dynamique avec React Router pour navigation fluide",
+      "Optimisation de l'expérience utilisateur (animations, transitions, UX)"
+    ],
+    "ameliorations": [
+      "Formulaire de contact avec envoi d'emails",
+      "Système de recherche et filtrage avancé des projets",
+      "..."
+    ],
+    "github": "https://github.com/trentycha/trentycha.github.io"
+  },
+  {
+    "id": 6,
+    "titre": "Wineshop - Château Letour",
+    "description": "Conception et réalisation d'un site vitrine pour un château de vin avec présentation des produits et différentes animations réalisées avec DOM JavaScript .",
+    "images": "/images/Chateau-Letour/couverture.jpg",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "front": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "back": "",
+    "ORM": "",
+    "DB": "",
+    "carousel": [
+      "/images/Chateau-Letour/couverture.jpg",
+      "/images/Chateau-Letour/vins.jpg",
+      "/images/Chateau-Letour/accords1.png",
+      "/images/Chateau-Letour/accords2.png",
+      "/images/Chateau-Letour/about.jpg",
+      "/images/Chateau-Letour/form.png"
+    ],
+    "fonctionnalites": [
+      "Interface utilisateur élégante et moderne",
+      "Animations CSS pour dynamiser le site",
+      "Conseils d'accords",
+      "Présentation des produits"
+    ],
+    "competences": [
+      "Développement front-end complet",
+      "Gestion des animations avec le DOM JavaScript",
+      "Design e-commerce professionnel",
+      "Expérience utilisateur optimisée"
+    ],
+    "ameliorations": [
+      "Intégration d'un système de commande",
+      "Backend pour gestion des commandes",
+      "Espace client avec historique d'achats",
+      "..."
+    ],
+    "github": "https://github.com/trentycha/wineshop"
+  }
+]
 }

@@ -5,8 +5,8 @@ const Projets = () => {
   const navigate = useNavigate();
   const { projets } = Datas;
 
-  const handleDiscover = (projetId) => {
-    navigate(`/projet/${projetId}`);
+  const handleDiscover = (projetsId) => {
+    navigate(`/projets/${projetsId}`);
   };
 
   return (
