@@ -4,7 +4,7 @@
       "id": 1,
       "titre": "My Geek Shop",
       "description": "Site e-commerce développé en full-stack, de produits de la culture geek/pop réalisé avec React et Node from scratch. Sélection de nombreux produits avec toutes leurs informations et possibilité de passer commande avec un panier en s'inscrivant et se connectant.",
-      "images": "/images/My-geek-shop/home-products.png",
+      "images": "/images/My-geek-shop/products.png",
       "technologies": [
         "React",
         "Tailwind CSS",
@@ -27,7 +27,10 @@
       "DB": "MySQL",
       "carousel" : [
         "/images/My-geek-shop/home-products.png",
-        "/images/My-geek-shop/home-products.png"
+        "/images/My-geek-shop/detail-product.png",
+        "/images/My-geek-shop/basket.png",
+        "/images/My-geek-shop/empty-basket.png",
+        "/images/My-geek-shop/register.png"
       ],
       "fonctionnalites": [
         "Système d'authentification complet avec inscription et connexion",
@@ -40,7 +43,6 @@
         "Développement full-stack avec React, React Router, Node.js et Express",
         "Stylisation avec Tailwind CSS",
         "Architecture MVC",
-        "Sécurisation des données : hashage bcrypt et authentification JWT",
         "Gestion des autorisations, hashage de mot de passe et token JWT",
         "Création d'API REST complète (CRUD produits, users, panier)",
         "Mise en place d'une base de données et de son ORM avec MySQL et Prisma"
@@ -101,7 +103,7 @@
     "id": 3,
     "titre": "Tic Tac Toe",
     "description": "Développement d'un jeu de Tic Tac Toe (Morpion) avec la possibilité de jouer localement en duo et de son interface avec des classes Java.",
-    "images": "/images/Tic-tac-toe/game.png",
+    "images": "/images/Tic-tac-toe/game.jpg",
     "technologies": [
       "Java"
     ],
@@ -114,9 +116,8 @@
     "ORM": "",
     "DB": "",
     "carousel": [
-      "/images/Tic-tac-toe/game.png",
-      "/images/Tic-tac-toe/home.png",
-      "/images/Tic-tac-toe/victory.png"
+      "/images/Tic-tac-toe/game2.jpg",
+      "/images/Tic-tac-toe/victory.jpg"
     ],
     "fonctionnalites": [
       "Jeu pour deux joueurs en local",
@@ -141,7 +142,7 @@
     "id": 4,
     "titre": "Wanted - Jeu click'n Point",
     "description": "Jeu point'n'click développé avec Symfony, inspiré de 'Où est Charlie'. Le but du jeu est de trouver la chaussette manquante parmi un tas de chaussette pour compléter sa paire.Le score est calculé en fonction du temps mis à cliquer sur la chaussette. Système d'authentification complet et blog intégré pour partager les exploits des joueurs.",
-    "images": "/images/Wanted/game.jpg",
+    "images": "/images/Wanted/home.jpg",
     "technologies": [
       "PHP",
       "Symfony",
@@ -159,8 +160,9 @@
     "DB": "MySQL",
     "carousel": [
       "/images/Wanted/game.jpg",
-      "/images/Wanted/home.jpg",
-      "/images/Wanted/blog.jpg"
+      "/images/Wanted/victory.jpg",
+      "/images/Wanted/blog.jpg",
+      "/images/Wanted/home.jpg"
     ],
     "fonctionnalites": [
       "Recherche d'objets dans des scènes illustrées",
@@ -179,7 +181,9 @@
     ],
     "ameliorations": [
       "Système de niveaux progressifs",
-      "Historique des parties"
+      "Améliorations graphiques",
+      "Historique des parties",
+      "..."
     ],
     "github": "https://github.com/trentycha/Projet_jeu_chaussettes"
   },
@@ -207,9 +211,10 @@
     ],
     "fonctionnalites": [
       "Présentation détaillée de mes projets web avec stack technique",
+      "Formulaire de contact avec envoi d'email (EmailJS)",
+      "Téléchargement et visualisation du CV en PDF",
       "Interface utilisateur moderne avec design professionnel",
-      "Navigation dynamique entre les différents projets",
-      "Téléchargement et visualisation du CV en PDF"
+      "Navigation dynamique entre les différents projets"      
     ],
     "competences": [
       "Développement avec React et composants réutilisables",
@@ -219,7 +224,6 @@
       "Optimisation de l'expérience utilisateur (animations, transitions, UX)"
     ],
     "ameliorations": [
-      "Formulaire de contact avec envoi d'emails",
       "Système de recherche et filtrage avancé des projets",
       "..."
     ],
@@ -229,7 +233,7 @@
     "id": 6,
     "titre": "Wineshop - Château Letour",
     "description": "Conception et réalisation d'un site vitrine pour un château de vin avec présentation des produits et différentes animations réalisées avec DOM JavaScript .",
-    "images": "/images/Chateau-Letour/couverture.jpg",
+    "images": "/images/Chateau-Letour/couverture.png",
     "technologies": [
       "HTML",
       "CSS",
@@ -244,11 +248,10 @@
     "ORM": "",
     "DB": "",
     "carousel": [
-      "/images/Chateau-Letour/couverture.jpg",
-      "/images/Chateau-Letour/vins.jpg",
+      "/images/Chateau-Letour/couverture.png",
+      "/images/Chateau-Letour/vins.png",
       "/images/Chateau-Letour/accords1.png",
       "/images/Chateau-Letour/accords2.png",
-      "/images/Chateau-Letour/about.jpg",
       "/images/Chateau-Letour/form.png"
     ],
     "fonctionnalites": [
@@ -271,5 +274,75 @@
     ],
     "github": "https://github.com/trentycha/wineshop"
   }
-]
+],
+
+"parcours": [
+    {
+      "id": 1,
+      "type": "formation",
+      "period": "2026 - 2028",
+      "title": "Master Développeur FullStack",
+      "entreprise": "Bordeaux"
+    },
+    {
+      "id": 2,
+      "type": "experience",
+      "period": "2025 - 2026",
+      "title": "Développeuse FullStack",
+      "entreprise": "Archenergie - Mérignac",
+      "details": [
+        "Développement des applications internes et du site web (React, Symfony, NodeJS, PHP)",
+        "Maintenance corrective et évolutive des fonctionnalités existantes",
+        "Ajout de nouvelles features selon les besoins métiers",
+        "Optimisation de l'interface utilisateur et amélioration UX/UI",
+        "Formation des nouveaux arrivants au logiciel"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "formation",
+      "period": "2025 - 2026",
+      "title": "Bachelor Développeur FullStack",
+      "entreprise": "My Digital School - Bordeaux"
+    },
+    {
+      "id": 4,
+      "type": "experience",
+      "period": "2021 - 2025",
+      "title": "Chargée de Projet Web",
+      "entreprise": "Namma - Mérignac",
+      "details": [
+        "Gestion de l'équipe digitale : coordination, suivi du cahier des charges",
+        "Pilotage de projets : rédaction des user stories, gestion du backlog",
+        "Refonte du site web : optimisation UX/UI, conception des maquettes sur Figma",
+        "Rédaction et présentation de comptes-rendus à la direction"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "formation",
+      "period": "2018 - 2023",
+      "title": "Master Manager de Projet Web",
+      "entreprise": "Ynov - Bordeaux"
+    },
+    {
+      "id": 6,
+      "type": "experience",
+      "period": "2018 - 2021",
+      "title": "Chargée de Projet Digital",
+      "entreprise": "SNCF - Bordeaux",
+      "details": [
+        "Soutien au développement d'un projet de questionnaire de satisfaction en ligne",
+        "Animation de réunions et coordination des parties prenantes",
+        "Création de supports visuels physiques et digitaux"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "formation",
+      "period": "2015 - 2018",
+      "title": "Licence d'Histoire",
+      "entreprise": "Université de Bordeaux"
+    }
+  ]
 }

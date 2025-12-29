@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-900 to-orange-900">
+        <div>
             <section className="text-white py-40">
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="flex flex-col md:flex-row items-center gap-20">
@@ -14,7 +14,7 @@ const Home = () => {
                             <h1 className="text-5xl font-bold mb-4">Charlène Billat</h1>
                             <h2 className="text-2xl mb-6">Apprentie développeuse web FullStack</h2>
                             <p className="text-lg mb-8 text-gray-300 whitespace-pre-line">
-                                En tant que développeuse web fullstack j'aime me lancer de nouveaux défis. {'\n'} C'est pourquoi je cherche une nouvelle opportunité en alternance pour poursuivre en Master {'\n'} afin de découvrir de nouveaux projets challengeants.
+                                En tant que développeuse web fullstack j'aime me lancer de nouveaux défis. {'\n'} C'est pourquoi je cherche une nouvelle opportunité en alternance pour poursuivre {'\n'} mes études en Master dès la rentrée 2026 afin de découvrir de nouveaux projets challengeants.
                             </p>
                             <Link to="/projets" className="bg-orange-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors inline-block shadow-lg">
                                 Mes projets
@@ -36,8 +36,8 @@ const Home = () => {
                                 pour une entreprise de travaux de rénovation énergétique.
                             </p>
                             <p className="mb-6 text-white">
-                                Je suis à la recherche de nouvelles opportunités en alternance pour poursuivre mes études en Master. Mes années de gestion de projet m'ont permis d'effleurer le développement web. 
-                                J'ai donc décidé de m'orienter vers ce domaine plus technique et je suis très motivée à l'idée de poursuivre vers des projets challengeants !
+                                Je suis à la recherche de nouvelles opportunités en alternance pour poursuivre mes études en Master. Mes années de gestion de projet m'ont permis d'approcher le développement web. 
+                                J'ai donc décidé de m'orienter vers ce domaine plus technique et je suis très motivée à l'idée de poursuivre vers de nouveaux projets !
                             </p>
                             <h5 className="font-semibold mb-3 text-orange-500">Langues</h5>
                             <div className="flex flex-wrap gap-2">

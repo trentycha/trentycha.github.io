@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import Datas from '../datas/datas.json';
+import Loading from '../components/Loading.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faCode, faLightbulb, faCircleArrowRight, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
@@ -9,23 +10,22 @@ const ProjectDetail = () => {
     const { id } = useParams();
     const [project, setProject] = useState(null);
     const [currentImage, setCurrentImage] = useState(0);
+    const [loading, setLoading] = useState(true);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const foundProject = Datas.projets.find(p => p.id === parseInt(id));
         setProject(foundProject);
+        setLoading(false);
     }, [id]);
 
-    if (!project) {
-        return (
-            <div className="min-h-screen flex items-center justify-center bg-gray-900">
-                <p className="text-2xl text-white">Un petit instant...</p>
-            </div>
-        );
+    if (loading) {
+        return <Loading />;
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-900 to-orange-900 pt-24 pb-20">
-            <div className="max-w-7xl mx-auto px-6">
+        <div>
+            <div className="max-w-7xl mx-auto px-6 pt-32">
 
                 <div className="bg-white rounded-2xl shadow-2xl overflow-hidden mb-12">
                     <div className="relative h-96">
@@ -164,7 +164,7 @@ const ProjectDetail = () => {
                                     <div className="p-6">
                                         <h3 className="text-xl font-bold text-gray-800 mb-2">{autreProjet.titre}</h3>
                                         <p className="text-gray-600 text-sm line-clamp-2">{autreProjet.description}</p>
-                                        <button onClick={`/projets/${autreProjet.id}`} className="inline-block bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors mt-6 shadow-lg">
+                                        <button onClick={() => navigate(`/projets/${autreProjet.id}`)} className="inline-block bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors mt-6 shadow-lg">
                                             Voir
                                         </button>
                                     </div>
