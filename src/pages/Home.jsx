@@ -67,8 +67,8 @@ const Home = () => {
                                 <div className="flex flex-wrap gap-2">
                                     <span className="bg-white px-4 py-2 rounded-full text-sm hover:bg-orange-500 hover:text-white transition-colors shadow">React</span>
                                     <span className="bg-white px-4 py-2 rounded-full text-sm hover:bg-orange-500 hover:text-white transition-colors shadow">Symfony</span>
+                                    <span className="bg-white px-4 py-2 rounded-full text-sm hover:bg-orange-500 hover:text-white transition-colors shadow">Spring Boot</span>
                                     <span className="bg-white px-4 py-2 rounded-full text-sm hover:bg-orange-500 hover:text-white transition-colors shadow">Tailwind</span>
-                                    <span className="bg-white px-4 py-2 rounded-full text-sm hover:bg-orange-500 hover:text-white transition-colors shadow">Bootstrap</span>
                                     <span className="bg-white px-4 py-2 rounded-full text-sm hover:bg-orange-500 hover:text-white transition-colors shadow">Express</span>
                                 </div>
                             </div>
@@ -79,6 +79,7 @@ const Home = () => {
                                     <span className="bg-white px-4 py-2 rounded-full text-sm hover:bg-orange-500 hover:text-white transition-colors shadow">NodeJS</span>
                                     <span className="bg-white px-4 py-2 rounded-full text-sm hover:bg-orange-500 hover:text-white transition-colors shadow">API REST</span>
                                     <span className="bg-white px-4 py-2 rounded-full text-sm hover:bg-orange-500 hover:text-white transition-colors shadow">Jest</span>
+                                    <span className="bg-white px-4 py-2 rounded-full text-sm hover:bg-orange-500 hover:text-white transition-colors shadow">PHPUnit</span>
                                     <span className="bg-white px-4 py-2 rounded-full text-sm hover:bg-orange-500 hover:text-white transition-colors shadow">SQL (MySQL)</span>
                                     <span className="bg-white px-4 py-2 rounded-full text-sm hover:bg-orange-500 hover:text-white transition-colors shadow">NoSQL (MongoDB)</span>
                                 </div>

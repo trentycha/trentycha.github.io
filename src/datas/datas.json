@@ -2,6 +2,146 @@
   "projets": [
     {
       "id": 1,
+      "titre": "Retro Championship",
+      "description": "Site web de tournois e-sport retro-gaming. Assistez à des matchs et des tournois de jeux vidéos retro et voyez s'affronter en streaming live des experts !",
+      "images": "/images/Retrop_champ/homepage.png",
+      "technologies": [
+        "React",
+        "Tailwind",
+        "NodeJS",
+        "API REST",
+        "Express",
+        "Prisma",
+        "MySQL"
+      ],
+      "front": [
+        "React",
+        "Tailwind"
+      ],
+      "back": [
+        "NodeJS",
+        "API REST",
+        "Express"
+      ],
+      "ORM": "Prisma",
+      "DB": "MySQL",
+      "carousel" : [
+        "/images/Retrop_champ/homepage.png",
+        "/images/Retrop_champ/homepage_tourn.png",
+        "/images/Retrop_champ/homepage_choices.png",
+        "/images/Retrop_champ/footer.png",
+        "/images/Retrop_champ/login.png",
+        "/images/My-geek-shop/all_tournaments.png",
+        "/images/Retrop_champ/tournament.png"
+      ],
+      "fonctionnalites": [
+        "Système d'authentification complet avec connexion et déconnexion",
+        "Affichage des tournois avec filtres selon le status",
+        "Affichage du détail d'un tournoi avec fetch en base de données",
+        "Affichage du profil utilisateur avec fetch en base de données",
+        "Affichage responsive",
+        "Persistance des données utilisateur via JWT"
+      ],
+      "competences": [
+        "Développement full-stack avec React, React Router, Node.js et Express",
+        "Gestion des autorisations, hashage de mot de passe et token JWT",
+        "Stylisation avec Tailwind",
+        "Création d'API REST complète)",
+        "Mise en place d'une base de données et de son ORM avec MySQL et Prisma"
+      ],
+      "ameliorations": [
+        "Ajout des niveaux d'autorisation",
+        "Ajout de possibilité de créer des équipes",
+        "..."
+      ],
+      "github": "https://github.com/trentycha/retro_championship"
+    },
+    {
+      "id": 2,
+      "titre": "Squash Talence",
+      "description": "Refonte et modernisation d'un site de réservation de terrains dans un club de Squash. Le site présente le club et permet de réserver son créneau et son terrain de sport en se connectant à son compte.",
+      "images": "/images/Squash-talence/landing-page.jpg",
+      "technologies": [
+        "PHP",
+        "Symfony",
+        "Doctrine",
+        "MySQL"
+      ],
+      "front": [
+        "Twig",
+        "PHP"
+      ],
+      "back": [
+        "Symfony"
+      ],
+      "ORM": "Doctrine",
+      "DB": "MySQL",
+      "carousel": [
+        "/images/Squash-talence/landing-page.jpg",
+        "/images/Squash-talence/login.jpg",
+        "/images/Squash-talence/resa.jpg"
+      ],
+      "fonctionnalites": [
+        "Système d'inscription et d'authentification complet",
+        "Calendrier interactif affichant les créneaux disponibles en temps réel",
+        "Réservation de terrains avec sélection de date, heure et terrain",
+        "Gestion du profil utilisateur et historique des réservations"
+      ],
+      "competences": [
+        "Développement full-stack avec Symfony et architecture MVC",
+        "Authentification et gestion des utilisateurs",
+        "Gestion de base de données relationnelle avec MySQL",
+        "Création d'interfaces utilisateur avec Twig",
+        "Gestion de base de données relationnelle MySQL avec Doctrine ORM"
+      ],
+      "ameliorations": [
+        "Notifications par email pour les réservations",
+        "Application mobile native",
+        "..."
+      ],
+      "github": "https://github.com/trentycha/Refonte-site-web-Squash-Talence"
+    },
+    {
+      "id": 3,
+      "titre": "Tic Tac Toe",
+      "description": "Développement d'un jeu de Tic Tac Toe (Morpion) avec la possibilité de jouer localement en duo et de son interface avec des classes Java.",
+      "images": "/images/Tic-tac-toe/game.jpg",
+      "technologies": [
+        "Java"
+      ],
+      "front": [
+        "Java Swing"
+      ],
+      "back": [
+        "Java"
+      ],
+      "ORM": "",
+      "DB": "",
+      "carousel": [
+        "/images/Tic-tac-toe/game2.jpg",
+        "/images/Tic-tac-toe/victory.jpg"
+      ],
+      "fonctionnalites": [
+        "Jeu pour deux joueurs en local",
+        "Détection automatique du vainqueur",
+        "Réinitialisation de la partie",
+        "Interface graphique intuitive"
+      ],
+      "competences": [
+        "Logique de programmation et orientée objet en Java",
+        "Gestion des événements utilisateur",
+        "Algorithmes de détection de victoire",
+        "Design d'interface de jeu"
+      ],
+      "ameliorations": [
+        "Différents niveaux de difficulté",
+        "Sauvegarde des statistiques de jeu",
+        "..."
+      ],
+      "github": "https://github.com/trentycha/Tic-Tac-Toe"
+    },
+    {
+      "id": 4,
       "titre": "My Geek Shop",
       "description": "Site e-commerce développé en full-stack, de produits de la culture geek/pop réalisé avec React et Node from scratch. Sélection de nombreux produits avec toutes leurs informations et possibilité de passer commande avec un panier en s'inscrivant et se connectant.",
       "images": "/images/My-geek-shop/products.png",
@@ -54,92 +194,8 @@
       ],
       "github": "https://github.com/trentycha/my-geek-shop"
     },
-    {
-    "id": 2,
-    "titre": "Squash Talence",
-    "description": "Refonte et modernisation d'un site de réservation de terrains dans un club de Squash. Le site présente le club et permet de réserver son créneau et son terrain de sport en se connectant à son compte.",
-    "images": "/images/Squash-talence/landing-page.jpg",
-    "technologies": [
-      "PHP",
-      "Symfony",
-      "Doctrine",
-      "MySQL"
-    ],
-    "front": [
-      "Twig",
-      "PHP"
-    ],
-    "back": [
-      "Symfony"
-    ],
-    "ORM": "Doctrine",
-    "DB": "MySQL",
-    "carousel": [
-      "/images/Squash-talence/landing-page.jpg",
-      "/images/Squash-talence/login.jpg",
-      "/images/Squash-talence/resa.jpg"
-    ],
-    "fonctionnalites": [
-      "Système d'inscription et d'authentification complet",
-      "Calendrier interactif affichant les créneaux disponibles en temps réel",
-      "Réservation de terrains avec sélection de date, heure et terrain",
-      "Gestion du profil utilisateur et historique des réservations"
-    ],
-    "competences": [
-      "Développement full-stack avec Symfony et architecture MVC",
-      "Authentification et gestion des utilisateurs",
-      "Gestion de base de données relationnelle avec MySQL",
-      "Création d'interfaces utilisateur avec Twig",
-      "Gestion de base de données relationnelle MySQL avec Doctrine ORM"
-    ],
-    "ameliorations": [
-      "Notifications par email pour les réservations",
-      "Application mobile native",
-      "..."
-    ],
-    "github": "https://github.com/trentycha/Refonte-site-web-Squash-Talence"
-  },
   {
-    "id": 3,
-    "titre": "Tic Tac Toe",
-    "description": "Développement d'un jeu de Tic Tac Toe (Morpion) avec la possibilité de jouer localement en duo et de son interface avec des classes Java.",
-    "images": "/images/Tic-tac-toe/game.jpg",
-    "technologies": [
-      "Java"
-    ],
-    "front": [
-      "Java Swing"
-    ],
-    "back": [
-      "Java"
-    ],
-    "ORM": "",
-    "DB": "",
-    "carousel": [
-      "/images/Tic-tac-toe/game2.jpg",
-      "/images/Tic-tac-toe/victory.jpg"
-    ],
-    "fonctionnalites": [
-      "Jeu pour deux joueurs en local",
-      "Détection automatique du vainqueur",
-      "Réinitialisation de la partie",
-      "Interface graphique intuitive"
-    ],
-    "competences": [
-      "Logique de programmation et orientée objet en Java",
-      "Gestion des événements utilisateur",
-      "Algorithmes de détection de victoire",
-      "Design d'interface de jeu"
-    ],
-    "ameliorations": [
-      "Différents niveaux de difficulté",
-      "Sauvegarde des statistiques de jeu",
-      "..."
-    ],
-    "github": "https://github.com/trentycha/Tic-Tac-Toe"
-  },
-  {
-    "id": 4,
+    "id": 5,
     "titre": "Wanted - Jeu click'n Point",
     "description": "Jeu point'n'click développé avec Symfony, inspiré de 'Où est Charlie'. Le but du jeu est de trouver la chaussette manquante parmi un tas de chaussette pour compléter sa paire.Le score est calculé en fonction du temps mis à cliquer sur la chaussette. Système d'authentification complet et blog intégré pour partager les exploits des joueurs.",
     "images": "/images/Wanted/home.jpg",
@@ -188,7 +244,7 @@
     "github": "https://github.com/trentycha/Projet_jeu_chaussettes"
   },
   {
-    "id": 5,
+    "id": 6,
     "titre": "Portfolio - Charlène",
     "description": "Portfolio professionnel développé avec React et Tailwind CSS pour présenter mes projets web et mes compétences. Architecture moderne basée sur des composants réutilisables et données centralisées en JSON. Design soigné avec animations fluides pour une navigation intuitive et une expérience utilisateur optimale.",
     "images": "/images/Portfolio/couverture.png",
@@ -230,7 +286,7 @@
     "github": "https://github.com/trentycha/trentycha.github.io"
   },
   {
-    "id": 6,
+    "id": 7,
     "titre": "Wineshop - Château Letour",
     "description": "Conception et réalisation d'un site vitrine pour un château de vin avec présentation des produits et différentes animations réalisées avec DOM JavaScript .",
     "images": "/images/Chateau-Letour/couverture.png",
