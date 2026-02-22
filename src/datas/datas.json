@@ -4,7 +4,7 @@
       "id": 1,
       "titre": "Retro Championship",
       "description": "Site web de tournois e-sport retro-gaming. Assistez à des matchs et des tournois de jeux vidéos retro et voyez s'affronter en streaming live des experts !",
-      "images": "/images/Retrop_champ/homepage.png",
+      "images": "/images/Retro_champ/homepage.png",
       "technologies": [
         "React",
         "Tailwind",
@@ -26,13 +26,13 @@
       "ORM": "Prisma",
       "DB": "MySQL",
       "carousel" : [
-        "/images/Retrop_champ/homepage.png",
-        "/images/Retrop_champ/homepage_tourn.png",
-        "/images/Retrop_champ/homepage_choices.png",
-        "/images/Retrop_champ/footer.png",
-        "/images/Retrop_champ/login.png",
-        "/images/My-geek-shop/all_tournaments.png",
-        "/images/Retrop_champ/tournament.png"
+        "/images/Retro_champ/homepage.png",
+        "/images/Retro_champ/homepage_tourn.png",
+        "/images/Retro_champ/homepage_choices.png",
+        "/images/Retro_champ/footer.png",
+        "/images/Retro_champ/login.png",
+        "/images/Retro_champ/all_tournaments.png",
+        "/images/Retro_champ/tournament.png"
       ],
       "fonctionnalites": [
         "Système d'authentification complet avec connexion et déconnexion",
